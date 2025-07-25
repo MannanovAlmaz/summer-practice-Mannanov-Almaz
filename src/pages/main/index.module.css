@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main_btn {
+    border: none;
+    padding: 0.45vw 0.6vw;
+    border-radius: 0.35vw;
+    font-family: "Roboto Light", sans-serif;
+    cursor: pointer;
+    background-color: rgba(54, 57, 73, 1);
+    color: rgba(255, 255, 255, 1);
+}

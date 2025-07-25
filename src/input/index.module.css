@@ -1,0 +1,25 @@
+.input_field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+    font-family: "Roboto Light", sans-serif;
+}
+
+.input_label {
+    font-size: 0.875rem;
+}
+
+.input {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid rgba(196, 199, 212, 1);
+}
+
+.input_field select {
+    appearance: none;
+    background-image: url("../assets/svg/Dropdown.svg");
+    background-repeat: no-repeat;
+    background-position: right 0.42vw center;
+    background-size: 0.85rem;
+    padding-right: 1vw;
+}

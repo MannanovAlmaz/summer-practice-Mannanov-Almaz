@@ -1,0 +1,113 @@
+.modal_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal_content {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5vw;
+    position: relative;
+    width: 33.33vw;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16);
+}
+
+.modal_list {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.modal_header {
+    display: flex;
+    font-family: "Roboto Light", sans-serif;
+    font-size: 1.25rem;
+    align-items: center;
+    margin-bottom: 1.5vw;
+}
+
+.modal_header h3 {
+    margin: 0;
+}
+
+.modal_header button {
+    position: absolute;
+    right: 0.75vw;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 1vw;
+}
+
+.friends_add_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: "Roboto Light", sans-serif;
+    padding: 0.31vw 0.52vw;
+    gap: 0.35vw;
+    font-size: 0.875rem;
+}
+.friends_remove_btn {
+    right: 0;
+    top: 0;
+    position: absolute;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+}
+.friends_block {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 1px solid rgba(196, 199, 212, 1);
+    border-radius: 0.5vw;
+    padding: 1vw;
+    gap: 1vw;
+    width: 8vw;
+}
+
+.friends {
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+}
+
+.modal_footer {
+    display: flex;
+    margin-top: 1.25vw;
+    gap: 0.83vw;
+}
+
+.modal_footer button {
+    border: none;
+    padding: 0.45vw 0.6vw;
+    border-radius: 0.35vw;
+    font-family: "Roboto Light", sans-serif;
+    cursor: pointer;
+}
+
+.modal_footer button:first-child {
+    background-color: rgba(226, 227, 233, 1);
+    color: rgba(33, 34, 44, 1);
+}
+
+.modal_footer button:last-child {
+    background-color: rgba(54, 57, 73, 1);
+    color: rgba(255, 255, 255, 1);
+}

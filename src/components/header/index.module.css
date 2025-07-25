@@ -1,0 +1,34 @@
+.header_ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 5rem;
+    font-family: "Santa Catarina", sans-serif;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    animation: header 1s linear;
+}
+
+.header_ul li {
+    list-style: none;
+    color: antiquewhite;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header_ul li:hover {
+    font-size: 3.1rem;
+    transition: 0.15s;
+}
+
+@keyframes header {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+    }
+}
